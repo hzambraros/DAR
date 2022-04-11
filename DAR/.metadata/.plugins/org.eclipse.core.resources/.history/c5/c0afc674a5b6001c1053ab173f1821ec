@@ -1,0 +1,10 @@
+package com.java.nttadata.task.controllers;
+
+import org.springframework.web.bind.annotation.*;
+
+@RestController
+@RequestMapping("/tasks")
+public class TaskController {
+	@Autowired
+	TaskRepository tastrepository;
+}

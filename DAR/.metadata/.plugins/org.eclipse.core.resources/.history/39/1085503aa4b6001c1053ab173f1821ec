@@ -1,0 +1,17 @@
+package com.java.nttadata.task.services;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.java.nttadata.task.repositories.TaskRepository;
+import com.java.nttadata.task.models.Tasks;;
+
+@Service
+public class TaskService {
+	@Autowired
+	TaskRepository taskrepository;
+	
+	public ArrayList<Tasks> showAllTasks(){
+		
+	}
+}

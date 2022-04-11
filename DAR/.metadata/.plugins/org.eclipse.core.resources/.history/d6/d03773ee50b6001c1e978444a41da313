@@ -1,0 +1,5 @@
+package com.java.nttadata.task.model;
+import org.springframework.data.repository.CrudRepository;
+public interface TaskRepository extends CrudRespository <Task, Long> {
+
+}

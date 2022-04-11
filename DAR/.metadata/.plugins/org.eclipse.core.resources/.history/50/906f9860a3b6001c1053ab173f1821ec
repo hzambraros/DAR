@@ -1,0 +1,5 @@
+package com.java.nttadata.task.repositories;
+
+public class TaskRepository {
+
+}

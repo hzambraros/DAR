@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete 3 resources" deleteContents="true" description="Delete 3 resources" element1="/obp-accounts-command-showcase" element2="/obp-accounts-query-showcase" element3="/obp-customers-command-showcase" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="3" stamp="1605347805850"/>
+</session>

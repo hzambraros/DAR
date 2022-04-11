@@ -1,0 +1,4 @@
+eclipse.preferences.version=1
+servers/OBP+Sonarqube/auth=true
+servers/OBP+Sonarqube/notificationsEnabled=false
+servers/OBP+Sonarqube/url=http\://10.0.6.163\:9000

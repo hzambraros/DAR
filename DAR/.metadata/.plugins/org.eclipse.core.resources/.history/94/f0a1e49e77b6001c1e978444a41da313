@@ -1,0 +1,14 @@
+package com.java.nttadata.task.service;
+import java.util.ArrayList;
+
+import com.java.nttadata.task.model.Task;
+
+public interface ITaskService {
+	ArrayList<Task> getAllTasks();
+	ArrayList<Task> getAllCompletedTasks(String status);
+	boolean addTask(Task NewTask);
+	void updateTask();
+	void deleteTask(int IdTaskD);
+	void deleteAll();
+	
+}

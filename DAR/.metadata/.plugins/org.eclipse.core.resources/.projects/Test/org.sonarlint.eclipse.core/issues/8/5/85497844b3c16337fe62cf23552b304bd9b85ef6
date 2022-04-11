@@ -1,0 +1,30 @@
+
+bsquid:S1191"5Use classes from the Java API instead of Sun classes.(õş‰ÂH’RMAJORZ
+CODE_SMELL
+Š
+squid:S135Q"YReduce the total number of break and continue statements in this loop to use at most one.(ãŒä–ıÿÿÿÿH“RMINORZ
+CODE_SMELL
+jsquid:S3878"8Remove this array creation and simply pass the elements.(¥ë–ˆûÿÿÿÿH”RMINORZ
+CODE_SMELL
+‚squid:S3776"RRefactor this method to reduce its Cognitive Complexity from 48 to the 15 allowed.(óÅÿH•RCRITICALZ
+CODE_SMELL
+Msquid:S3878"Remove this array creation.(Å¸ºûÿÿÿÿH–RMINORZ
+CODE_SMELL
+[squid:S1905I")Remove this unnecessary cast to "String".(üÅÓàùÿÿÿÿH—RMINORZ
+CODE_SMELL
+gsquid:S3972^"7Move this "if" to a new line or add the missing "else".(¥”úøH˜RCRITICALZ
+CODE_SMELL
+j
+squid:S106t"9Replace this use of System.out or System.err by a logger.(½ªÀñûÿÿÿÿH™RMAJORZ
+CODE_SMELL
+e
+squid:S106|"9Replace this use of System.out or System.err by a logger.(ÁÆˆ›HšRMAJORZ
+CODE_SMELL
+ksquid:S3878‰"8Remove this array creation and simply pass the elements.(ÂèÅ…øÿÿÿÿH›RMINORZ
+CODE_SMELL
+msquid:S1161Œ":Add the "@Override" annotation above this method signature(Œ»íıÿÿÿÿHœRMAJORZ
+CODE_SMELL
+Nsquid:S3878"Remove this array creation.(»§÷ˆúÿÿÿÿHRMINORZ
+CODE_SMELL
+ksquid:S3878£"8Remove this array creation and simply pass the elements.(´Õ‡ëşÿÿÿÿHRMINORZ
+CODE_SMELL

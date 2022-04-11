@@ -1,0 +1,58 @@
+package com.java.nttadata.task.service;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.java.nttadata.task.model.Task;
+import com.java.nttadata.task.model.TaskRepository;
+
+@Service
+public class TaskService implements ITaskService{
+
+	@Autowired
+	private TaskRepository taskrepository;
+	
+	@Override
+	public ArrayList<Task> getAllTasks() {
+		return (ArrayList<Task>) taskrepository.findAll();
+	}
+
+	@Override
+	public ArrayList<Task> getAllCompletedTasks(String status ) {
+		return (ArrayList<Task>) taskrepository.findByStatus(status);
+	}
+
+	@Override
+	public void addTask() {
+		ArrayList<Task> tsk = new ArrayList<Task>();
+		int current = (int) taskrepository.count();
+		tsk.add(new Task("Description"+current,"TO-DO"));
+		for(Task task : tsk) {
+			taskrepository.save(task);
+		}
+		
+	}
+
+	@Override
+	public void updateTask(Long id) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void deleteTask(int IdTaskD) {
+		long id = IdTaskD;
+		int totalDB = (int) taskrepository.count();
+		if(totalDB>0) {taskrepository.deleteById(id);}
+	}
+
+	@Override
+	public void deleteAll() {
+		int totalDB = (int) taskrepository.count();
+		if(totalDB>0) {taskrepository.deleteAll();}	
+	}
+
+}

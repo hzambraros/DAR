@@ -1,0 +1,10 @@
+
+
+squid:S135 "YReduce the total number of break and continue statements in this loop to use at most one.(Ο¶ϋ€όÿÿÿÿH¬RMINORZ
+CODE_SMELL
+Hsquid:S3626-"Remove this redundant jump.(Ι©ƒH­RMINORZ
+CODE_SMELL
+ssquid:S3027&"FPut single-quotes around '=' to use the faster "indexOf(char)" method.(Α¶φH®RMAJORZ
+CODE_SMELL
+xsquid:S4034'"FReplace this "filter().findAny().isPresent()" chain with "anyMatch()".(Υ—τώÿÿÿÿH―RMINORZ
+CODE_SMELL

@@ -1,0 +1,62 @@
+
+Vsquid:S2629i"$Invoke method(s) only conditionally.(î¶ı’üÿÿÿÿHåRMAJORZ
+CODE_SMELL
+Wsquid:S2629·"$Invoke method(s) only conditionally.(íí…öùÿÿÿÿHæRMAJORZ
+CODE_SMELL
+Rsquid:S2629À"$Invoke method(s) only conditionally.(¨•‰HçRMAJORZ
+CODE_SMELL
+Rsquid:S2629â"$Invoke method(s) only conditionally.(©¤Ê£HèRMAJORZ
+CODE_SMELL
+\squid:S1066å"/Merge this if statement with the enclosing one.(™½¿LHéRMAJORZ
+CODE_SMELL
+tsquid:S00112g"FDefine and throw a dedicated exception instead of using a generic one.(‘Ø HêRMAJORZ
+CODE_SMELL
+usquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(¨¶úÌHëRMAJORZ
+CODE_SMELL
+usquid:S00112¯"FDefine and throw a dedicated exception instead of using a generic one.(µ®³³HìRMAJORZ
+CODE_SMELL
+osquid:UselessImportCheck"5Remove this unused import 'javax.net.ssl.SSLSession'.(Âçÿ±HíRMINORZ
+CODE_SMELL
+|squid:S00119$"IRename this generic name to match the regular expression '^[A-Z][0-9]?$'.(ä¯Æ¼ÿÿÿÿÿHîRMINORZ
+CODE_SMELL
+e
+squid:S1064"9Replace this use of System.out or System.err by a logger.(ÃëÀºHïRMAJORZ
+CODE_SMELL
+jsquid:S3878i"8Remove this array creation and simply pass the elements.(î¶ı’üÿÿÿÿHğRMINORZ
+CODE_SMELL
+Isquid:S3878‚"Remove this array creation.(Öìˆ–HñRMINORZ
+CODE_SMELL
+Isquid:S3878“"Remove this array creation.(ä«ÚĞHòRMINORZ
+CODE_SMELL
+fsquid:S3878™"8Remove this array creation and simply pass the elements.(™ıÀğHóRMINORZ
+CODE_SMELL
+ksquid:S3878·"8Remove this array creation and simply pass the elements.(íí…öùÿÿÿÿHôRMINORZ
+CODE_SMELL
+fsquid:S3878À"8Remove this array creation and simply pass the elements.(¨•‰HõRMINORZ
+CODE_SMELL
+fsquid:S2696Å"6Make the enclosing method "static" or remove this set.(‘Öö+HöRCRITICALZ
+CODE_SMELL
+gsquid:S2696Í"6Make the enclosing method "static" or remove this set.(ÈÁÍ—H÷RCRITICALZ
+CODE_SMELL
+gsquid:S2696Ò"6Make the enclosing method "static" or remove this set.(Ã÷HøRCRITICALZ
+CODE_SMELL
+Nsquid:S3878×"Remove this array creation.(ßçó«úÿÿÿÿHùRMINORZ
+CODE_SMELL
+lsquid:S2696Ø"6Make the enclosing method "static" or remove this set.(üå™‹üÿÿÿÿHúRCRITICALZ
+CODE_SMELL
+fsquid:S3878â"8Remove this array creation and simply pass the elements.(©¤Ê£HûRMINORZ
+CODE_SMELL
+lsquid:S2696æ"6Make the enclosing method "static" or remove this set.(ñ†¦œşÿÿÿÿHüRCRITICALZ
+CODE_SMELL
+ksquid:S3878ë"8Remove this array creation and simply pass the elements.(¸ÅèÃşÿÿÿÿHıRMINORZ
+CODE_SMELL
+·squid:S1186ò"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¥ÚÃàúÿÿÿÿHşRCRITICALZ
+CODE_SMELL
+·squid:S1186ø"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(åæ“¢ùÿÿÿÿHÿRCRITICALZ
+CODE_SMELL
+asquid:S4424ò"+Change this method so it throws exceptions.(¥ÚÃàúÿÿÿÿH€RMAJORZVULNERABILITY
+asquid:S4424ø"+Change this method so it throws exceptions.(åæ“¢ùÿÿÿÿHRMAJORZVULNERABILITY
+Tsquid:S1168ş"&Return an empty array instead of null.(¥¹ïH‚RMAJORZ
+CODE_SMELL
+bsquid:S4423",Change this code to use a stronger protocol.(ùÆÏ†şÿÿÿÿHƒRMAJORZVULNERABILITY
+esquid:S3510…"2Do not unconditionally return true in this method.(ç”‘ÕH„RBLOCKERZVULNERABILITY

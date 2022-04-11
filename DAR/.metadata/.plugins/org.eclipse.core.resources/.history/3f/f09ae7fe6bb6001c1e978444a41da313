@@ -1,0 +1,51 @@
+package com.java.nttadata.task.service;
+
+import java.util.ArrayList;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.java.nttadata.task.model.Task;
+import com.java.nttadata.task.model.TaskRepository;
+
+@Service
+public class TaskService implements ITaskService{
+
+	@Autowired
+	private TaskRepository taskrepository;
+	
+	@Override
+	public ArrayList<Task> getAllTasks() {
+		return (ArrayList<Task>) taskrepository.findAll();
+	}
+
+	@Override
+	public ArrayList<Task> getAllCompletedTasks() {
+		return (ArrayList<Task>) taskrepository.findByDescription(description);
+	}
+
+	@Override
+	public boolean addTask() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public void updateTask() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void deleteTask() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void deleteAll() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

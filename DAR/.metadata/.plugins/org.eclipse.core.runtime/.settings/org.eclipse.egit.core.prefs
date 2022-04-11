@@ -1,0 +1,4 @@
+GitRepositoriesView.GitDirectories=S\:\\Workspaces\\OpenBankingPlatform\\obp-accounts-command-showcase\\.git;S\:\\Workspaces\\OpenBankingPlatform\\obp-personal-environment-manager\\.git;S\:\\Workspaces\\OpenBankingPlatform\\obp-customers-command-showcase\\.git;S\:\\Workspaces\\OpenBankingPlatform\\obp-accounts-query-showcase\\.git;
+GitRepositoriesView.GitDirectories.relative=obp-accounts-command-showcase\\.git;obp-personal-environment-manager\\.git;obp-customers-command-showcase\\.git;obp-accounts-query-showcase\\.git;
+core_autoIgnoreDerivedResources=false
+eclipse.preferences.version=1
