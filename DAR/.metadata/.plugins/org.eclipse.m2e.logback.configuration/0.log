@@ -8157,3 +8157,41 @@ java.lang.NullPointerException: null
 2022-04-11 11:40:55,643 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-04-11 11:40:55,643 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
 2022-04-11 11:40:55,643 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\Workspaces\DAR\nttdata-dar-task-hz\src\test\resources
+2022-04-12 11:43:49,998 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-12 11:43:50,004 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-12 11:43:50,014 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-12 11:43:50,090 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-12 11:43:50,097 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-12 11:43:50,097 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-12 11:43:50,098 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\Workspaces\DAR\nttdata-dar-task-hz\src\test\resources
+2022-04-12 11:47:46,547 [main] INFO  o.e.m.c.u.i.p.MavenSettingsPreferencePage - Refreshing settings S:\Maven\Maven-3.6.3\conf\settings.xml
+2022-04-12 11:47:46,549 [main] INFO  o.e.m.c.u.i.p.MavenSettingsPreferencePage - Refreshing settings S:\Maven\Maven-3.6.3\conf\settings.xml
+2022-04-12 11:47:46,550 [main] INFO  o.e.m.c.u.i.p.MavenSettingsPreferencePage - Refreshing settings S:\Maven\Maven-3.6.3\conf\settings.xml
+2022-04-12 11:47:46,550 [main] INFO  o.e.m.c.u.i.p.MavenSettingsPreferencePage - Refreshing settings S:\Maven\Maven-3.6.3\conf\settings.xml
+2022-04-12 11:50:47,602 [Worker-5: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.java.nttadata.task:nttdata-dar-task-hz:0.0.1-SNAPSHOT @ S:\Workspaces\DAR\nttdata-dar-task-hz\pom.xml.
+2022-04-12 11:50:48,492 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-12 11:50:48,492 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-12 11:50:48,495 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-12 11:50:48,495 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-12 11:50:48,498 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-12 11:50:48,499 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-12 11:50:48,499 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\Workspaces\DAR\nttdata-dar-task-hz\src\test\resources
+2022-04-12 11:51:31,422 [Worker-5: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.java.nttadata.task:nttdata-dar-task-hz:0.0.1-SNAPSHOT @ S:\Workspaces\DAR\nttdata-dar-task-hz\pom.xml.
+2022-04-12 11:51:31,963 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-12 11:51:31,963 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-12 11:51:31,965 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-12 11:51:31,965 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-12 11:51:31,969 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-12 11:51:31,969 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-12 11:51:31,969 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\Workspaces\DAR\nttdata-dar-task-hz\src\test\resources
+2022-04-12 11:53:01,312 [Worker-3: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.java.nttadata.task:nttdata-dar-task-hz:0.0.1-SNAPSHOT @ S:\Workspaces\DAR\nttdata-dar-task-hz\pom.xml.
+2022-04-12 11:53:01,831 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-12 11:53:01,831 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-12 11:53:01,834 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-12 11:53:01,835 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-12 11:53:01,838 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-12 11:53:01,838 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-12 11:53:01,838 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\Workspaces\DAR\nttdata-dar-task-hz\src\test\resources
+2022-04-12 11:53:33,907 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2022-04-12 11:58:03,732 [Worker-2: Launching nttdata-dar-task-hz] INFO  o.e.m.i.launch.MavenLaunchDelegate - S:\Workspaces\DAR\nttdata-dar-task-hz
+2022-04-12 11:58:03,735 [Worker-2: Launching nttdata-dar-task-hz] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B -gs S:\Maven\Maven-3.6.3\conf\settings.xml -s S:\Maven\Maven-3.6.3\conf\settings.xml compile jib:build
