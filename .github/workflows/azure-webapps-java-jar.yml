@@ -45,7 +45,7 @@ jobs:
           cache: 'maven'
 
       - name: Build with Maven
-        run: mvn -f /nttdata-dar-task-hz/pom.xml clean install
+        run: mvn -f nttdata-dar-task-hz/pom.xml clean install
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v3
