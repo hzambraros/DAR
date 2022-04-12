@@ -51,7 +51,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: java-app
-          path: '${{ github.workspace }}/nttdata-dar-task-hz/.mvn/wrapper/*.jar'
+          path: '${{ github.workspace }}/nttdata-dar-task-hz/target/*.jar'
 
   deploy:
     runs-on: windows-latest
