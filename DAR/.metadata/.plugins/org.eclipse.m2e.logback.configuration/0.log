@@ -8195,3 +8195,10 @@ java.lang.NullPointerException: null
 2022-04-12 11:53:33,907 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
 2022-04-12 11:58:03,732 [Worker-2: Launching nttdata-dar-task-hz] INFO  o.e.m.i.launch.MavenLaunchDelegate - S:\Workspaces\DAR\nttdata-dar-task-hz
 2022-04-12 11:58:03,735 [Worker-2: Launching nttdata-dar-task-hz] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B -gs S:\Maven\Maven-3.6.3\conf\settings.xml -s S:\Maven\Maven-3.6.3\conf\settings.xml compile jib:build
+2022-04-13 15:43:53,172 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-13 15:43:53,179 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-13 15:43:53,191 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-13 15:43:53,476 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-13 15:43:53,486 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-13 15:43:53,487 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-13 15:43:53,487 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\Workspaces\DAR\nttdata-dar-task-hz\src\test\resources
