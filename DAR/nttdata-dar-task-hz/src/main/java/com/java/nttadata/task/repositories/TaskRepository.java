@@ -10,6 +10,4 @@ import com.java.nttadata.task.models.Tasks;
 @Repository
 public interface TaskRepository extends CrudRepository<Tasks,Long>  {
 	public abstract Optional<Tasks> findById(Long id);
-	public abstract Optional<Tasks> findByDescription(String description);
-	public abstract Optional<Tasks> findByStatus(String status);
 }

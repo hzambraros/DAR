@@ -22,26 +22,12 @@ public class TaskService {
 		return taskrepository.findById(id);
 	}
 	
-	public Optional<Tasks> findByDesc(String Desc)
-	{
-		Tasks task = new Tasks ();
-		if(task.getDescription().contentEquals(Desc)) {
-			return taskrepository.findByDescription(Desc);
-		}
-		return null;
-	}
-	
-	public Optional<Tasks> findByStatus(String status)
-	{
-		Tasks task = new Tasks ();
-		if(task.getStatus().contentEquals(status)) {
-			return taskrepository.findByDescription(status);
-		}
-		return null;
-	}
-	
 	public Tasks AddNewTask(Tasks task)
 	{
+		return taskrepository.save(task);
+	}
+	
+	public Tasks updateTask(Tasks task) {
 		return taskrepository.save(task);
 	}
 	

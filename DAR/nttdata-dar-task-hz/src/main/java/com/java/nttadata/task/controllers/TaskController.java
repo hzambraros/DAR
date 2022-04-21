@@ -26,35 +26,17 @@ public class TaskController {
 	}
 	
 	
-	@GetMapping("/findByDescription/{desc}")
-	public Optional<Tasks> findByDesc(@PathVariable("desc")String desc)
-	{
-		
-		return this.taskService.findByDesc(desc);
-	}
-	
-	@GetMapping("/findByStatus/{status}")
-	public Optional<Tasks> findByStatus(@PathVariable("status")String status)
-	{
-		return this.taskService.findByStatus(status);
-	}
-	
 	@PostMapping("/newTask")
 	public Tasks AddNewTask(@RequestBody Tasks task) {
 		return this.taskService.AddNewTask(task);
 	}
 	
-	@PutMapping("/updateStatus/{status}")
-	public Optional<Tasks> changeStatus(@PathVariable("status")String status)
+	@PutMapping("/update")
+	public Tasks modify(@RequestBody final Tasks task)
 	{
-		return null;
+		return this.taskService.updateTask(task);
 	}
 	
-	@PutMapping("/updateStatus/{desc}")
-	public Optional<Tasks> changeDesc(@PathVariable("desc")String desc)
-	{
-		return null;
-	}
 	
 	@DeleteMapping("/deleteById/{id}")
 	public Optional<Tasks> deleteById(@PathVariable("id")Long id) 

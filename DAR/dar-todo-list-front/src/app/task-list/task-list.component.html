@@ -1,0 +1,16 @@
+<div class="container">
+    <h1 class="titlePage"> All Tasks</h1>
+    <div class="card-group">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div *ngFor="let task of tasks" class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <p class="card-text">{{task.description}}</p>
+                        <button type="button" class="btn btn-info" disabled>{{task.status}}</button>
+                        <button type="button" class="btn btn-success" (click)="onSelect(task)">Details</button>
+                    </div>
+                </div>
+            </div>         
+        </div>
+    </div>
+</div>

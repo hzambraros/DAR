@@ -1,8 +1,0 @@
-package com.java.nttadata.task.service;
-import com.java.nttadata.task.model.Task;
-public interface ITaskService {
-	List<Task> getAllTasks();
-	List<Task> getAllCompletedTasks();
-	
-	
-}

@@ -1,7 +1,0 @@
-package com.java.nttadata.task.repositories;
-
-
-@Repository
-public interface TaskRepository extends CrudRepository  {
-
-}

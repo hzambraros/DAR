@@ -1,7 +1,0 @@
-package com.java.nttadata.task.controllers;
-
-
-@RestController
-public class TaskController {
-
-}
