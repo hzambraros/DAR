@@ -6,7 +6,6 @@
     "title": "DAR: APP APP HZ"
   },
   "host": "api-manag-tasks.azure-api.net",
-  "basePath": "/v1",
   "schemes": [
     "https",
     "http"

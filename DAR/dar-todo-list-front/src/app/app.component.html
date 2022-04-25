@@ -4,12 +4,38 @@
       Home
     </a>
     <div class="d-flex justify-content-around">
-      <button class="btn btn-danger">Clear Tasks</button>
+      <button class="btn btn-danger" >Clear Tasks</button>
       &nbsp;&nbsp;
-      <button class="btn btn-warning">New Task</button>
+      <button type="button" class="btn btn-warning" (click)="OpenNewTask()">New Task</button>
     </div>
   </div>
 </nav>
 
 
 <app-task-list></app-task-list>
+
+<div class="modal" tabindex="-1" role="dialog" [ngStyle]="{'display':displayStyle}">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title">New Task</h4>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="new-taskd"> Description:</label>
+            <input id="new-taskd" #newtaskDesc/>
+          </div>
+          <div class="mb-3">
+            <label for="new-tasks"> status:</label>
+            <input id="new-tasks" #newtaskStatus/>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" (click)="closePopup()"> Close</button>
+        <button type="button" class="btn btn-success" (click)="add(newtaskDesc.value,newtaskStatus.value); newtaskDesc.value='';newtaskStatus.value=''">Add</button>
+      </div>
+    </div>
+  </div>
+</div>

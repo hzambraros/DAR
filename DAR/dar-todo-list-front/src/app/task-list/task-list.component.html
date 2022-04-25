@@ -5,12 +5,44 @@
             <div *ngFor="let task of tasks" class="col">
                 <div class="card">
                     <div class="card-body">
+                        <h5 class="card-tittle">{{task.id}}</h5>
+                        <h6> {{task.status}}</h6>
                         <p class="card-text">{{task.description}}</p>
-                        <button type="button" class="btn btn-info" disabled>{{task.status}}</button>
-                        <button type="button" class="btn btn-success" (click)="onSelect(task)">Details</button>
+                        <button type="button" class="btn btn-danger" (click)="onSelectDelete(task)">Delete {{task.id}}</button>
+                        <button type="button" class="btn btn-success" data-mdb-toggle="modal" (click)="onSelect(task)">Modify task {{task.id}}</button>
                     </div>
                 </div>
             </div>         
         </div>
     </div>
+</div>
+
+
+
+
+
+
+<div *ngIf="selectTask" class="modal" tabindex="-1" role="dialog" [ngStyle]="{'display':displayStyle}">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title">Modify Task {{selectTask.id}}</h4>
+      </div>
+      <div class="modal-body">
+        <div class="mb-3">
+          <label for="task-desc">New Description</label>
+          <input id="task-desc" [(ngModel)]="selectTask.description" type="text">
+        </div>
+        
+        <div class="mb-3">
+          <label for="task-status">New Status</label>
+          <input id="task-status" [(ngModel)]="selectTask.status" type="text">
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" (click)="closePopup()"> Close</button>
+        <button type="button" class="btn btn-success" (click)="modify(selectTask)"> Modify</button>
+      </div>
+    </div>
+  </div>
 </div>
